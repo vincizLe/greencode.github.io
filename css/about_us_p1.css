@@ -1,0 +1,83 @@
+*{
+	margin: auto;
+	font-family: Segoe UI;
+	text-align: justify;
+}
+#Separador{
+	text-align:center;
+}
+.Cuerpo{
+    position: relative;
+    padding: 0px;
+    margin: 60px;
+    color: #6D6D71;
+}
+#Imagenes{
+  display: grid;
+  width: 100%;
+}
+#Texto{
+	display: grid; 
+	width: 100%;
+}
+.titulo{
+	margin: 20px auto 10px auto;
+	color: #3F3B42;
+	font-size: 20px;
+}
+th img{
+	width: 90%;
+	height: 100%;
+	margin: 30px auto;
+}
+#cuerpo2{
+	border-top: 1px solid gray;
+	width: 100%;
+}
+.image{
+	margin: 20px auto;
+	text-align: center;
+}
+.image img{
+	width: 80%;
+	height: 80%;
+}
+.sub_contenido{
+	width: 90%;
+	text-align: center;
+}
+.sub_contenido h2{
+	margin: 10px auto;
+	color: #3F3B42;
+}
+.sub_contenido p{
+	margin: 10px auto;
+	color: #6D6D71;
+}
+@media (min-width: 1024px){
+tbody{
+	display: flex;
+}
+.titulo{
+	margin: 20px auto 10px auto;
+}
+th img{
+	width: 450px;
+	height: 300px;
+	margin: 30px auto;
+}
+td{
+	width: 400px;
+}
+.contenido{
+	display: flex;
+	width: 1200px;
+}
+.sub_contenido h2{
+	margin: 10px auto;
+}
+.sub_contenido p{
+	margin: 10px auto;
+	line-height: 30px;	
+}
+}

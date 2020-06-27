@@ -1,0 +1,66 @@
+*{
+	margin: auto;
+}
+#cuerpo{
+	position: relative;
+	width: 100%;
+	top:60px;
+}
+#informacion{
+	width: 100%;
+}
+#imagen{
+	text-align: center;
+	width: 100%;
+}
+#imagen img{
+	width: 70%;
+	height: 100%;
+	border: 1px solid black;
+}
+#desc{
+	width: 80%;
+	margin: 30px auto
+}
+#desc li{
+	margin: 10px auto;
+}
+#plataformas{
+	width: 100%;
+	text-align: center;
+}
+#plataformas h2{
+	color: #00A168;
+}
+#plataformas p{
+	margin: 15px 0;
+}
+@media (min-width: 1024px){
+#cuerpo{
+	width: 1200px;
+	display: flex;
+}
+#informacion{
+	display: flex;
+	width: 70%;
+}
+#imagen {
+	width:50%;
+	margin: 40px auto;
+}
+#desc{
+	width: 50%;
+	margin: auto;
+}
+#desc li{
+	margin: 40px auto;
+	font-size: 20px;
+}
+#plataformas{
+	width: 30%;
+
+}
+#plataformas h2{
+	font-size: 28px;
+}
+}
