@@ -27,11 +27,13 @@
     margin: 10px auto;
 }
 .boton{
+	position relative;
 	color: #fff;
 	background: #3F3B42;
 	padding: 10px 20px;
 	border-radius: 5px;
 	text-decoration: none;
+	top:100px;
 }
 .boton:hover{
 	color: #6D6D71;
